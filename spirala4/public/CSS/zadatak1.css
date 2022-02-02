@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: burlywood;
+
+
+}
+
+a{
+margin-right: 20px;
+
+}
+p{
+	display: inline-grid;
+    background-color: rosybrown;
+    padding: 20px 20px 20px 20px;
+    margin: 5px 5px 5px 28px;
+    text-align: center;
+    white-space: pre-line;
+    width: 40%;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 20px;
+    width:100%;
+    height: 100%;
+}
+
+th,tr,td{
+   padding-right:25px;
+   text-align: center;
+   background-color: rosybrown;
+   height:100%;
+   width:100%;
+}
+
+#grid_lista {
+ background-color: #ecb6ff96;
+
+ width: 100%;
+}
+
+@media screen and (min-width: 800px){
+	
+	#meni{
+		width:100%;
+		height:100px;
+		padding-top: 30px;
+		padding-left: 10px;
+		background-color: pink;
+	}
+
+
+	#studenti{
+		max-width:100%;
+		display: inline;
+          width:60%;
+
+		padding-bottom:100%;
+          background-color: #EEA2AD;
+          float:left;
+          grid-template-columns: repeat(auto-fit,minmax(10px,auto));
+	}
+
+	#grupe{
+		display: inline;
+		height:100%;
+		max-width:100%;
+		padding-bottom: 100%;
+		width: 40%;
+		background-color: pink;
+		float:right;
+		
+	}
+
+}
+
+@media only screen and (max-width: 799px) and (min-width:500px){
+
+ 
+ #grid{
+ 	display:grid;
+ 	grid-template-columns:1fr;
+ 	grid-template-rows: 50px 250px 500px 1fr  1fr 1fr;
+ 	grid-template-areas: 
+ 	"meni"
+ 	"grupe"
+ 	"studenti"
+ }
+
+#meni{
+	grid-area: meni;
+	padding-top:20px;
+	padding-left:10px;
+	background-color: pink;
+}
+#grupe{
+	grid-area:grupe;
+	background-color: #EEA2AD;
+}
+#studenti{
+
+	grid-area:studenti;
+	background-color: #FFB6C1;
+   grid-template-columns: repeat(auto-fit,minmax(10px,auto));
+
+}
+
+
+  
+}
+
+
+@media screen and (max-width: 500px){
+	 #grid{
+ 	display:grid;
+ 	grid-template-columns:1fr;
+ 	grid-template-rows: 250px 150px 500px 1fr  1fr 1fr;
+ 	grid-template-areas: 
+ 	"meni"
+ 	"grupe"
+ 	"studenti"
+ }
+
+#meni{
+	grid-area: meni;
+	background-color: pink;
+	padding-left: 30px;
+
+}
+
+#vjezbelnk{
+  display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	width:0px;
+	
+}
+	#grupelnk{
+	justify-content: center;
+		display: flex;
+		padding-top: 170px;
+		width:0px;
+	}
+
+#grupe{
+	grid-area:grupe;
+	background-color: #EEA2AD;
+}
+ .grupa_naziv{
+   text-align: center;
+   
+ }
+
+.br_studenata{
+ display: none;
+}
+.termin{
+	display:none;
+}
+#studenti{
+    
+	grid-area:studenti;
+	background-color: pink;
+    grid-template-columns: repeat(auto-fit,minmax(10px,auto));
+}
+
+}
+
+

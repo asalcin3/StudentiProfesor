@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dodajStudenta.css">
+</head>
+
+<body>
+    <div id="meni" >
+        <a id="vjezbelnk" href="vjezbe.html">Vježbe</a>
+        <a id="mojRepozitorij" href="MojRepozitorij.html.html">MojRepozitorij</a>
+        <a id="grupe" href="postaviGrupu.html">postaviGrupu</a>
+        <a id="studenti" href="dodajStudenta.html">dodajStudenta</a>
+        <a id="Batch" href="dodajBatch.html">dodaj Batch</a>
+
+        </div>
+	<script src="dodajStudenta.js"></script>
+    <script src="StudentAjax.js"></script>
+    
+    <label id="labela">Unesite ime studenta:</label>
+    <input id="ime" class="inputex" type="text"></input>
+    <br>
+    <label id="labela">Unesite prezime studenta:</label>
+    <input id="prezime" class="inputex" type="text"></input>
+    <br>
+    <label id="labela">Unesite broj indexa:</label>
+    <input id="index" class="inputex" type="number"></input>
+    <br>
+    <label id="labela">Unesite grupu studenta:</label>
+    <input id="grupa" class="inputex" type="text"></input>
+    <br>
+    <button type="button" id="dodaj">Posalji</button>
+
+    <div id="ajaxstatus"></div>
+   
+</body>
+
+</html>

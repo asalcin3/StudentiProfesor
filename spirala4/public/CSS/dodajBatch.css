@@ -1,0 +1,57 @@
+.proba{
+    margin: 10px;
+    padding: 5px;
+}
+
+#unosBrojaVjezbi{
+    margin: 10px;
+    padding: 5px;
+}
+
+body{
+    padding: 100px;
+    background-color: burlywood;
+}
+#meni{
+    display:flex;
+    flex-direction:row;
+
+    padding-bottom:10%;
+
+    width:100%;
+    padding-top:10%; 
+ 
+
+}
+a{
+   padding-right:3%;
+}
+#labela{
+    display: inline-block;
+    width: 55px;
+    margin: 10px;
+}
+
+.inputex{
+    margin: 3px;
+}
+
+#odgovorServera{
+    padding-top: 10px;
+}
+
+
+#labela1{
+width: 55px;
+margin: 10px;
+}
+#batchUnos{
+margin: 10px;
+background-color: #4CAF50;
+color: white;
+width: 80px;
+height: 28px;
+transition-duration: 0.4s;
+border-radius: 4px;
+}
+

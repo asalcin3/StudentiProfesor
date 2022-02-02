@@ -1,0 +1,73 @@
+body{
+	
+	background-color: burlywood;
+}
+
+@media screen and (min-width: 800px){
+form{
+    display: flex;
+	height: 100%;
+	grid-gap: 30px;
+	background-color: antiquewhite;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 45%;
+	padding-top: 50px;
+	flex-direction: column;
+}
+
+#meni{
+ padding-bottom: 10px;
+ display: visible;
+}
+
+#dugme{
+	width:30%;
+}
+
+input {
+    height: 27px;
+    margin-top: -17px;
+}
+
+}
+
+@media only screen and (max-width: 799px) and (min-width:500px){
+	form{
+		display:grid;
+		max-width: 100%;
+		height: 100%;
+		background-color: antiquewhite;
+		grid-gap: 15px;
+	}
+
+	#meni{
+	 padding-bottom: 10px;
+	 display: visible;
+	}
+
+    #dugme{
+		width:30%;
+	}	
+
+
+}
+	@media screen and (max-width: 500px){
+		form{
+
+		   	display:grid;
+		   	max-width: 100%;
+		   	height: 100%;
+			background-color: antiquewhite;
+			grid-gap: 15px;
+		}
+		
+		#meni{
+         	padding-bottom: 10px;
+         	display: visible;
+        }
+       
+         #dugme{
+	         width:30%;
+         }
+}

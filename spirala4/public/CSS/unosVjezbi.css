@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	background-color: burlywood;
+
+}
+
+#meni {
+    padding: 10px;
+   
+}
+body{
+	background-color: bisque;
+}
+
+form#form{
+	background-color: bisque;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	margin-top: 20px;
+	
+}
+.form-row{
+	display: flex;
+	column-gap: 5%;
+	background-color: bisque;
+}
+
+#form2{
+	background-color: bisque;
+	padding-bottom: 70%;
+}
+label{
+	background-color: bisque;
+}
+
+input{
+	background-color: lavenderblush;
+}
+
+#posalji {
+    background-color: pink;
+    width: 35%;
+    margin-left: 35%;
+    margin-top: 3%;
+}

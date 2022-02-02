@@ -1,0 +1,191 @@
+*{
+	
+	box-sizing: border-box;
+
+
+}
+	
+
+input {
+    height: 35px;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    padding-top: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+img{
+	width:100%;
+}
+body{
+
+	background-color: burlywood;
+	padding-top: 1%;
+}
+
+#meni{
+	display: inline-grid;
+}
+
+#odabirVjezbe {
+display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    background-color: #70DB93;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    border: solid;
+
+
+}
+
+.vjezba1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+   	padding: 1% 2% 1% 0%;
+
+}
+
+.vjezba2{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+		padding: 1% 2% 1% 0%;
+
+}
+.vjezba{
+	
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	padding: 1% 2% 1% 0%;
+
+}
+.zadatak{
+	    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+#zadaci{
+    padding-bottom: 1%;
+    padding-left: 1%;
+	background-color: grey;
+
+}
+
+@media only screen and (min-width: 800px){
+	#grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-areas:
+		"meni"
+		"odabirVjezbe"
+		"graf"
+		"graf"
+		"graf"
+		"graf"
+	}
+	#meni{
+       width: 100%;
+       text-align: center;
+       display: inherit;
+       
+	}
+
+	#odabirVjezbe{
+		display: inline-grid;
+		flex:left;
+		width:60%;
+		overflow: hidden;
+		
+
+	}
+
+	.graf1{
+
+   display: inline-flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: -5px;
+    width: 100%;
+     
+  
+	}
+
+		.graf2{
+      
+     display: inline-flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+     
+  
+	}
+
+
+ .grafovi{
+ 		display: flex;
+		flex-direction: column;
+		width: 50%;
+		float:right;
+		margin-top:0px;
+		
+ }
+ 
+ #zajednicki{
+ 	width:100%;
+ 	display: flex;
+ 	flex-direction: row;
+ 	
+
+ }
+ 
+}
+
+
+@media only screen and (max-width: 799px){
+	#grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-areas:
+		"meni"
+		"odabirVjezbe"
+		"graf"
+		"graf"
+		"graf"
+		"graf"
+	}
+	#meni{
+       width: 100%;
+       text-align: center;
+       display: inherit;
+       flex-direction: column;
+       
+	}
+
+	#odabirVjezbe{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+
+	}
+
+	.graf{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+
+	}
+  img{
+  	width:100%;
+  }
+	}

@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	background-color: burlywood;
+
+
+}
+
+form{
+    display: flex;
+    column-gap:10px;
+    flex-direction: column;
+
+}
+.inputex{
+	background-color:white;
+	width:60%;
+	margin-top:10px;
+
+}
+
+button{
+	width:30%;
+	background-color:whitesmoke;
+	margin-top:10px;
+	margin-left:10%;
+}
